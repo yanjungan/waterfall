@@ -34,3 +34,4 @@ each遍历的value是DOM对象。将value DOM对象转换为jQuery对象才能�
 }
 
 ## 效果：
+* 1.js实现的：http://htmlpreview.github.io/?https://github.com/yanjungan/waterfall/blob/master/javascript-myself/index.html
