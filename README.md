@@ -5,7 +5,7 @@
 outerWidth() = padding+border+width;
 width() = width
 * 2.$.inArray(所找元素,数组) 该方法用于获取元素的索引
-* 3.jQuery遍历的函数each  $boxs.each(function(index,value){
+* 3.jQuery遍历的函数each，$boxs.each(function(index,value){
 }); index 索引值，value对应的值
 * 4.eq(n),从结果集中选取第n的元素
 * 5.$.inArray(value,arr)工具函数，用来判断某个值在数组中的索引
