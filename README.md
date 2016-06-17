@@ -12,7 +12,7 @@ width() = width
 * 6.each遍历的value是DOM对象。将value DOM对象转换为jQuery对象才能使用其方法 ：$(value)。
 jQuery的$.inArray()方法直接可以得到一个数在数组中的索引。
 $(dom) 将Dom对象转换成jQuery对象。
-each遍历的value是DOM对象。将value DOM对象转换为jQuery对象才能使用其方法 ：$(value)。
+each遍历的value是DOM对象，将value DOM对象转换为jQuery对象才能使用其方法 ：$(value)。
 * 7. apply函数：可以改变函数或方法中this的指向。如：var minH=Math.min.apply(null,hArr); 注意Math.min()只能计算几个值的最小值,不能计算数组的最小值,但是通过apply()能劫持另外一个对象的方法，继承另外一个对象的属性
 
 ## JS原生方式和CSS3方式实现瀑布流比较：
