@@ -33,3 +33,4 @@ each遍历的value是DOM对象。将value DOM对象转换为jQuery对象才能�
 	-ms-column-gap:5px;
 }
 
+## 效果：
