@@ -1,0 +1,18 @@
+*{margin: 0;padding:0;}
+#main{position: relative;}/* 子元素box里面的图片都是要用绝对定位的 */
+.box{
+	padding: 15px 0 0 15px;
+	float: left;	
+	}/* 图片与图片之间使用内边距padding,不使用外边距margin，因为js中使用的函数获取的是padding属性 */
+
+.pic{
+	padding: 10px;
+	border: 1px solid #ccc;/* 灰色 */
+	border-radius: 5px;/* 边框加了圆弧 */
+	box-shadow: 0 0 5px #ccc;/*阴影水平和竖直都为0,背景灰色 */
+}
+/* 瀑布流的特点是等宽不等高*/
+.img{
+	width: 165px;
+	height: auto;
+}
